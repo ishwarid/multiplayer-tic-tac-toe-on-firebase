@@ -1,0 +1,108 @@
+<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar w/ text</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
+  </div>
+</nav>
+
+<div class="row topSpace">
+  <div class="col-4"> </div>    
+  <div class="col-4">
+      <div class="alert alert-danger" *ngIf="saveSuccess">
+          <strong>EmailId and Password does not match.Please try again!</strong>
+      </div>
+      
+              <table >
+                 
+                  <tr>
+                      <td >
+                          <div class="card">
+                              <div class="card-header" (click)="buttonClick(1)" id="1" name="1">
+                                </div>
+                          </div>
+
+                      </td>
+                      <td >
+                          <div class="card">
+                              <div class="card-header" id="2" name="2" (click)="buttonClick(2)">
+                                </div>
+                          </div>
+
+                      </td>
+                      <td >
+                          <div class="card">
+                              <div class="card-header" id="3" name="3" (click)="buttonClick(3)">
+                                </div>
+                          </div>
+
+                      </td>
+                  </tr>
+                  <tr>
+                      <td >
+                          <div class="card">
+                              <div class="card-header" id="4" name="4" (click)="buttonClick(4)">
+                                </div>
+                          </div>
+
+                      </td>
+                      <td >
+                          <div class="card">
+                              <div class="card-header" id="5" name="5" (click)="buttonClick(5)">
+                                </div>
+                          </div>
+
+                      </td>
+                      <td >
+                          <div class="card">
+                              <div class="card-header" id="6" name="6" (click)="buttonClick(6)">
+                                </div>
+                          </div>
+
+                      </td>
+                  </tr>
+                  <tr>
+                      <td  >
+                          <div class="card">
+                              <div class="card-header" id="7" name="7" (click)="buttonClick(7)">
+                                </div>
+                          </div>
+
+                      </td>
+                      <td  >
+                          <div class="card">
+                              <div class="card-header" id="8" name="8" (click)="buttonClick(8)">
+                                </div>
+                          </div>
+
+                      </td>
+                      <td >
+                          <div class="card">
+                              <div class="card-header" id="9" name="9" (click)="buttonClick(9)">
+                                </div>
+                          </div>
+
+                      </td>
+                  </tr>
+              </table>
+  </div>
+</div>
+
+
+
+
